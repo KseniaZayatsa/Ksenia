@@ -1,0 +1,398 @@
+@media (max-width: 4096px) {
+    .footer-mark {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+
+    hr,
+    .header-center__inner-links__element-pc,
+    .header-down,
+    .header-center__subscribe,
+    .best-sellers__pc {
+        display: none;
+    }
+
+    .header-center__inner-links__element-mobile {
+        display: inline;
+    }
+
+    .best-sellers__mobile {
+        display: flex;
+    }
+
+    .header-center {
+        gap: 22.67%;
+    }
+
+    .best-sellers {
+        padding: 25px 27px;
+    }
+
+    .best-sellers__cards {
+        justify-content: space-evenly;
+    }
+
+    .best-sellers__chapter__head {
+        justify-content: space-evenly;
+    }
+
+}
+
+@media(max-width: 1024px) {
+
+
+    .about-us {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .about-us__text {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .about-us img {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .main-information__advantages {
+        gap: clamp(11px, 6vw, 140px);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .main-information__advantages__element {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 11px;
+    }
+
+    .main-information__advantages__element p {
+        font-size: 8px;
+        text-transform: capitalize;
+    }
+
+    .main-information__advantages__element img:nth-child(1) {
+        content: url(../img/main-information/icon_mobile_1.svg);
+    }
+
+    .main-information__advantages__element img:nth-child(2) {
+        content: url(../img/main-information/icon_mobile_2.svg);
+    }
+
+    .main-information__advantages__element img:nth-child(3) {
+        content: url(../img/main-information/icon_mobile_3.svg);
+    }
+
+    .main-information__advantages__element img:nth-child(4) {
+        content: url(../img/main-information/icon_mobile_4.svg);
+    }
+}
+
+@media(max-width: 768px) {
+
+    .main-information__slider__head {
+        width: 248px;
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .main-information__slider__head span {
+
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .header-center__search {
+        display: none;
+    }
+
+    .header-center__inner-links {
+        gap: 23px;
+    }
+
+    .header-center__logotype {
+        content: url(../img/header/logo-mobile.svg)
+    }
+
+    .header-up p {
+        width: 74.8vw;
+        font-size: 10px;
+    }
+
+    .main-information__advertisement__text {
+        width: 46.66vw;
+        font-size: 12px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+
+    .footer-center {
+        margin-top: 41px;
+    }
+
+    .footer-center h4 {
+        text-align: center;
+    }
+
+    .footer-center__address {
+        margin-top: 29px;
+    }
+
+    .footer-center__mark {
+        display: none;
+    }
+
+    .footer-right {
+        margin-top: 51px;
+    }
+
+    .footer-mark {
+        display: inline;
+        margin-top: 51px;
+        margin-bottom: 77px;
+        color: #828282;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .instagram__photos {
+        display: none;
+    }
+
+    .instagram__photos.mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews {
+        overflow: visible;
+        min-height: 371px;
+    }
+
+    .reviews__blocks {
+        width: 100%;
+        justify-content: center;
+        padding: 0 40px;
+    }
+
+    .reviews__review-left,
+    .reviews__review-right {
+        display: none;
+    }
+
+    .reviews__block img {
+        display: none;
+    }
+
+    .reviews__review-active {
+        background-image: url(../img/Mobile-review.svg);
+        background-size: cover;
+        max-width: 404px;
+        min-width: 296px;
+        width: 100%;
+        height: 313px;
+    }
+
+    .reviews__review-active p {
+        padding: 0 34px;
+    }
+
+    .swiper {
+        gap: 19px;
+        padding-left: 0;
+    }
+
+    .swiper img {
+        width: 6px;
+        height: 11px;
+    }
+
+    .pagination {
+        gap: 5px;
+    }
+
+    .circle {
+        width: 6px;
+        height: 6px;
+    }
+
+    .about-us__text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-us__text p {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .best-sellers__cards {
+        justify-content: space-between;
+    }
+
+    .best-sellers__chapter__head {
+        justify-content: space-between;
+    }
+
+    .reviews {
+        padding-top: 28px;
+        padding-bottom: 37px;
+    }
+
+    .reviews__article {
+        font-size: 20px;
+    }
+
+    .reviews__under-article {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .reviews__blocks {
+        margin-top: 22px;
+    }
+
+    .reviews__review-active {
+        height: 229px;
+        width: 296px;
+    }
+
+    .reviews__review-active h4 {
+        margin-top: 25px;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .reviews__review-active p {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .swiper {
+        margin-top: 1px;
+    }
+
+    .about-us {
+        margin-top: 29px;
+    }
+
+    .about-us__text h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .about-us__text p {
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 11px;
+    }
+
+    .discount-info {
+        margin-top: 40px;
+        padding: 33px 20px 0;
+        background-image: url(../img/Mobile-discount-info.jpg);
+        background-position: center center;
+        height: 257px;
+        background-size: cover;
+    }
+
+    .discount-info__article {
+        font-size: 20px;
+    }
+
+    .discount-info__under-article {
+        font-size: 12px;
+        max-width: 218px;
+        margin-top: 11px;
+    }
+
+    .discount-info__form {
+        max-width: 213px;
+        margin-top: 25px;
+    }
+
+    .discount-info__email {
+        height: 34px;
+        font-size: 14px;
+    }
+
+    .discount-info__email::placeholder {
+        font-size: 12px;
+    }
+
+    .discount-info__button {
+        margin-top: 16px;
+        width: 134px;
+        height: 33px;
+        font-size: 13px;
+    }
+
+    .instagram {
+        margin-top: 43px;
+    }
+
+    .instagram__article {
+        font-size: 20px;
+    }
+
+    .instagram__under-article {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .instagram__ref {
+        margin-top: 17px;
+        font-size: 12px;
+    }
+
+    .instagram__ref img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .instagram__photos {
+        margin-top: 31px;
+        max-width: 375px;
+    }
+
+    .instagram__photos img {
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 48px;
+        margin-top: 41px;
+
+    }
+}
